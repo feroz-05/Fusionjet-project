@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <form>
+        <div class="icon">
+            <img class="user-icon" src="/user_3024605.png">
+            <h3>Register your account</h3>
+        </div>
+        <div class="main">
+            <div class="detials">
+                <span>
+                    Name
+                    <input type="text" placeholder="Enter Name">
+                </span>
+                <span>
+                    Email
+                    <input type="text" placeholder="Enter Email">    
+                </span>
+                <span>
+                    Password
+                    <input type="password" placeholder="Enter password" >
+                </span>
+                    Confirm Password
+                    <input class="re-password-txtbox" type="text" placeholder="Re-Enter Password">
+                    <a class="link-to-login" href="login.html">
+                        Already have an account ?
+                    </a>
+                <button class="submit-button">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        document.querySelector(".submit-button")
+            .addEventListener('click',()=>{
+                let values = document.querySelector("input").value;
+                if(values === ''){
+                    alert("Missing Credentials Enter your detials");
+                }else{
+                    alert("thankyou for your Response");
+                    values="";
+                }
+                window.location.href="/index.html";
+
+            })
+    </script>
+</body>
+</html>
