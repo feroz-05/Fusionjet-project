@@ -1,16 +1,37 @@
         body{
-            background-image: url(/1700129558567.jpg);
-            background-size: cover;
+           background-image: -webkit-linear-gradient(white);
             font-family: roboto;
             text-align: center;
+            height: 670px;
+            padding-top: 20px;
         }
+
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .first,.second{
+            width: 1px;
+        }
+        .second{
+            height: 620px;
+            width: 375px;
+            background-image: url(/1700129558567.jpg);
+            background-size: cover;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px black;
+        }
+
         .firstlink{
             text-decoration: none;
             color: black;
+            font-size: 17px;
         }
         .secondlink{
             text-decoration: none;
             color: red;
+            font-size: 17px;
         }
         .main{
             height: 900px;
@@ -70,5 +91,5 @@
             width: 100px;
             height: 100px;
             background-color: transparent;
-            padding-left: 38%;
+            padding-left: 135px;
     }

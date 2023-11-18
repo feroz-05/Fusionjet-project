@@ -2,6 +2,12 @@
 body{
     font-family: roboto;
     background-color: rgba(161, 76, 241, 0.925);
+    background-image: linear-gradient(rgb(112, 60, 163),rgba(179, 1, 179, 0.87));
+    height: 670px;
+}   
+.second{
+    width:375px;
+    height: 590px;
 }
 .main{
     background-color: rgba(97, 0, 177, 0.651);
@@ -12,6 +18,24 @@ body{
     border-radius: 30px;
 }
 
+.main-signin{
+    background-color: rgba(97, 0, 177, 0.651);
+    height: 455px;
+    margin: 0px 20px;
+    margin-top: 70px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.first{
+    background-color: red;
+}
 .detials{
     padding: 80px 10px ;
     color:white;
@@ -32,6 +56,7 @@ input{
     padding-right: 100px;
     padding-top:5px;
     padding-bottom: 5px;
+    padding-left: 10px;
     color: white;
     margin-bottom: 10px;
 }
@@ -55,30 +80,27 @@ input::placeholder{
     height: 10px;
 }
 .user-icon{
-    display: flex;
-    flex: 1fr;
-    position: fixed;
     width: 100px;
     height: 100px;
     box-shadow: 0px 0px 15px rgb(0, 0, 0);
     border-radius: 50%;
     align-items: center;
-    margin-left: 34%;
+    margin-left: 36%;
     margin-top: 25px;
-    background-color: rgb(110, 27, 192);
-    
+    background-color: rgba(110, 45, 175, 0.938);  
 }
 
 h3{
     color:white;
-    padding: 130px 0px;
     text-align: center;
     letter-spacing: 2px;
     font-size: 17px;
+    padding-left: 8px;
+    margin: 5px;
 }
 .submit-button{
-    display: inline-block;
-    font-size: 15px;
+    display: block;
+    font-size: 16px;
     font-weight: bold;
     letter-spacing: 1px;
     border-radius: 10px;
@@ -87,11 +109,12 @@ h3{
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.884);
     box-shadow: 0px 0px 15px black;
-    margin-left: 25%;
     color: rebeccapurple;
     background-color: rgb(255, 255, 255);
-    margin-top: 15px;
+    margin-top: 20px;
     transition: all 0.1s;
+    align-items: center;
+    margin-left: 80px;
 }
 .submit-button:hover{
     color: white;
