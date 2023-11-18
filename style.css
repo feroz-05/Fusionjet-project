@@ -2,8 +2,6 @@
            background-image: -webkit-linear-gradient(white);
             font-family: roboto;
             text-align: center;
-            height: 670px;
-            padding-top: 20px;
         }
 
         .container{
@@ -16,7 +14,7 @@
         }
         .second{
             height: 700px;
-            width: 375px;
+            width: 400px;
             background-image: url(/1700129558567.jpg);
             background-size: cover;
             border-radius: 15px;
